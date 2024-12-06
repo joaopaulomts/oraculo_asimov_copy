@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "saudacoes",
+      "patterns": ["olá", "oi", "bom dia", "opa", "oie", "saudações"],
+      "responses": ["Olá!", "Hey!", "Como posso ajudar você?"]
+    },
+    {
+      "tag": "idade",
+      "patterns": ["quantos anos você tem?", "qual é sua idade?", "idade do bot?"],
+      "responses": ["Sou atemporal, criado para ajudar!", "Não tenho idade, apenas conhecimento!"]
+    },
+    {
+      "tag": "nome",
+      "patterns": ["qual é o seu nome?", "como você se chama?", "quem é você?"],
+      "responses": ["Eu sou o assistente virtual pronto para ajudar!", "Me chamo Assistente IA, e você?"]
+    },
+    {
+      "tag": "shop",
+      "patterns": ["quais produtos vocês oferecem?", "como posso comprar?", "tem loja online?"],
+      "responses": ["Oferecemos uma variedade de produtos, consulte nosso catálogo!", "Você pode acessar nossa loja online para mais informações."]
+    },
+    {
+      "tag": "horas",
+      "patterns": ["que horas são?", "qual o horário agora?", "pode me informar o horário?"],
+      "responses": ["Infelizmente, não sei o horário exato agora.", "Sugiro verificar no relógio do seu dispositivo."]
+    },
+    {
+      "tag": "tchau",
+      "patterns": ["tchau", "até mais", "valeu, até logo", "falou"],
+      "responses": ["Tchau! Até a próxima!", "Até mais! Foi bom falar com você!"]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": ["como você pode me ajudar?", "o que você faz?", "preciso de ajuda"],
+      "responses": ["Posso responder suas perguntas e oferecer informações úteis.", "Estou aqui para ajudar no que você precisar!"]
+    },
+    {
+      "tag": "localizacao",
+      "patterns": ["onde vocês estão localizados?", "qual o endereço?", "como chego até vocês?"],
+      "responses": ["Estamos localizados em R. Urussanga, 417 - Centro, Criciúma - SC - Brasil.", "Você pode nos encontrar em nossa sede física, estamos prontos para receber você!"]
+    },
+    {
+      "tag": "servicos",
+      "patterns": ["quais serviços vocês oferecem?", "que tipo de suporte vocês têm?", "o que vocês fazem?"],
+      "responses": ["Oferecemos serviços de internet, suporte técnico e mais. Pergunte para mais detalhes!", "Nossos principais serviços incluem internet banda larga, suporte técnico e consultoria."]
+    },
+    {
+      "tag": "pagamento",
+      "patterns": ["quais formas de pagamento aceitam?", "como posso pagar?", "aceitam boleto?"],
+      "responses": ["Aceitamos cartão, boleto e transferência bancária.", "Você pode pagar usando as opções disponíveis em nosso portal de cliente."]
+    }
+  ]
+}
